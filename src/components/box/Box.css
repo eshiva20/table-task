@@ -1,0 +1,68 @@
+.box1 {
+  padding: 10px;
+  border: 1px solid #cdcaca;
+  margin: 0px auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.innerBox {
+  display: flex;
+  gap: 10px;
+}
+
+.innerBox-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.pair {
+  font-size: 14px;
+}
+.price {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.offer2 {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box2-centre {
+  display: inline-block;
+  align-self: end;
+  font-size: 11px;
+  text-decoration: line-through;
+}
+
+.popular-title {
+  color: green;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.innerBox1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+input[type="radio"] {
+  accent-color: #007f61;
+}

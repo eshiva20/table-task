@@ -1,0 +1,13 @@
+.sizeBox{
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.text{
+    font-size: 12px;
+}
+
+.hash{
+  font-size: 11px;
+}

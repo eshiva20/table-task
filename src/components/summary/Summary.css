@@ -1,0 +1,14 @@
+.summary{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.shipping{
+    color: #007F61;
+}
+
+.total{
+    font-weight: 500;
+}

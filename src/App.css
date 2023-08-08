@@ -1,0 +1,53 @@
+.container {
+  height: 100vh;
+  display: flex;
+}
+.main {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.line {
+  font-size: 18px;
+  position: relative;
+  margin: 0px;
+  text-align: center;
+  color: #007f61;
+  font-weight: 400;
+  width: 420px;
+}
+.line:before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 140px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #c8c8c8;
+}
+.line:after {
+  content: " ";
+  height: 1px;
+  width: 140px;
+  background: #c8c8c8;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+.credit {
+  margin: 0px;
+  text-align: end;
+  width: 420px;
+  font-size: 12px;
+  
+}
+
+.creditText{
+font-style: italic; 
+}
